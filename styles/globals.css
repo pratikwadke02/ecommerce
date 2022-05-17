@@ -249,10 +249,11 @@ text-align: end;
   /* top: -35%;
   left: 8%; */
   top: -25%;
-  left: 25%;
+  right: 5%;
 }
 .banner-desc .right{
   line-height: 1.4;
+  margin-right: 25px;
   margin-left: 30px;
 }
 .banner-desc .right h3{
