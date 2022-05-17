@@ -18,8 +18,8 @@ const HeroBanner = ({heroBanner}) => {
               <button type="button">{heroBanner.buttonText}</button>
           </Link> */}
           <div className='desc'>
-              <h5>Description</h5>
-              <p>{heroBanner.desc}</p>
+              {/* <h5>Description</h5>
+              <p>{heroBanner.desc}</p> */}
           </div>
       </div>
     </div>
