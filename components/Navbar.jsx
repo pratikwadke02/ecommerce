@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import {AiOutlineShopping} from 'react-icons/ai';
+import logo from '../public/logo.webp'
 
 import {Cart} from './';
 import {useStateContext} from '../context/StateContext';
@@ -10,7 +11,12 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <p className='logo'>
-        <Link href="/">Apple Store</Link>
+        <Link href="/">
+          <div>
+          <img src={logo} alt="" />
+          The Garden Coach Store
+          </div>
+        </Link>
       </p>
       <button type='button' className='cart-icon' onClick={()=> 
         setShowCart(true)
